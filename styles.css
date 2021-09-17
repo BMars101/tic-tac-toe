@@ -1,0 +1,31 @@
+h1, h2{
+    text-align: center;
+}
+.flex-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-column {
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+    height: 432px;
+    width: 432px;
+}
+.cell {
+    border: 2px solid black;
+    height: 140px;
+    width: 140px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.pick-marker {
+    text-align: center;
+    align-items: center;
+}
+
